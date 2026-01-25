@@ -1,7 +1,6 @@
 # DE-Docker-Workshop
 Docker Workshop Codespaces
-*
-*
+
 Module 1 Homework: Docker & SQL
 ## Question 1: Understanding Docker images
 
