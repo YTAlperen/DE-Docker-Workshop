@@ -1,6 +1,31 @@
 # DE-Docker-Workshop
 Docker Workshop Codespaces
 
+Module 2 Homework: Work Orchestration
+## Question 3: How many rows are there for the Yellow Taxi data for all CSV files in the year 2020?
+
+``` sql
+SELECT COUNT(*) AS total_rows
+FROM `terraform-485219.zoomcamp.yellow_tripdata`
+WHERE EXTRACT(YEAR FROM tpep_pickup_datetime) = 2020;
+```
+
+## Question 4: How many rows are there for the Green Taxi data for all CSV files in the year 2020?
+
+``` sql
+SELECT COUNT(*) AS total_rows
+FROM `terraform-485219.zoomcamp.green_tripdata`
+WHERE EXTRACT(YEAR FROM tpep_pickup_datetime) = 2020;
+```
+
+## Question 5: How many rows are there for the Yellow Taxi data for the March 2021 CSV file?
+
+``` sql
+SELECT COUNT(*)
+FROM `terraform-485219.zoomcamp.yellow_tripdata_2021_03`;
+
+```
+
 Module 1 Homework: Docker & SQL
 ## Question 1: Understanding Docker images
 
