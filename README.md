@@ -2,6 +2,14 @@
 Docker Workshop Codespaces
 
 Module 3 Homework: Data Warehousing & BigQuery
+
+Before the questions to load data, I made some transaction below.
+``` terminal
+pip install google-cloud-storage
+python load_yellow_taxi_data.py
+
+```
+
 ## Question 1: What is count of records for the 2024 Yellow Taxi Data?
 
 ``` sql
